@@ -150,7 +150,7 @@ def TaskExecution():
                 speak("Email has been sent!")
             except Exception as e:
                 print(e)
-                speak("Sorry sir.I am not able to send this email")
+                speak("Sorry sir,I am not able to send the email")
 
 
         elif "switch the window" in query:
